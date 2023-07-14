@@ -1,0 +1,118 @@
+.product-page {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input,
+  select,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+
+.chat-window {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+
+.conversation-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.conversation-button {
+  padding: 10px;
+  background-color: #f1f1f1;
+  border: none;
+  cursor: pointer;
+}
+
+.conversation-button.selected {
+  background-color: #ccc;
+}
+
+.chat-messages {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.chat-message {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.chat-message strong {
+  font-weight: bold;
+}
+
+.chat-message input[type="text"],
+.chat-message button {
+  margin-top: 5px;
+}
+
+.timestamp {
+  font-size: 12px;
+  color: gray;
+}
+
+.success-message {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.myoffers {
+  display: block;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #007bff;
+  color: #fff;
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.myoffers:hover {
+  background-color: #0056b3;
+}
